@@ -3,19 +3,19 @@ A simple tool to create a mock api based on json files. The json files can becom
   
   
   
-  
 ## How to run ##
 mvn spring-boot:run -Drun.jvmArguments="-Ddummyapi.folder=D:\\eclipse-workspace\\rms-web-application\\src\\main\\resources\\templates\\natural\\ajax-contract\\" 
 
-note: -Ddummyapi.folder is the folder location of json files
-
+## Note: ##
+-Ddummyapi.folder is the folder location of json files  
+If you're not specified the location, default for location is `src/main/resources/jsons` inside the app  
 
 
 
 ## How to consume ##
 use http://localhost:9000/api/{file-name-of-a-json}   
-ex. http://localhost:9000/api/employee (will read employee.json in the specified folder)
-
+ex. http://localhost:9000/api/employee (will read employee.json in the specified folder)  
+ex. http://localhost:9000/api/employee-403 (will read employee-403.json in the specified folder) and give 403 as HTTP response code.
 
 
 

@@ -1,0 +1,28 @@
+{
+	"id": 1,
+	"firstName": "Erik",
+	"lastName": "Farhan Malik",
+	"gender": "MALE",
+	"dateOfBirth": "20 October, 1989",
+	"nationality": "Indonesia",
+	"maritalStatus": "MARRIED",
+	"phone": "085623451232",
+	"subDivision": "Java Desktop",
+	"status": "PERMANENT",
+	"suspendDate": null,
+	"hiredDate": "1 November, 2016",
+	"grade": {
+		"id": 8,
+		"code": "JP",
+		"name": "Junior Programmer"
+	},
+	"division": {
+		"id": 4,
+		"code": "SE",
+		"name": "Software Engineer"
+	},
+	"email": "employee@mitrais.com",
+	"location": "Jakarta",
+	"username": "employee",
+	"role": "ROLE_EMPLOYEE"
+}
